@@ -40,9 +40,6 @@ jobs:
      - name: Update kubeconfig
        run: aws eks --region ap-south-1 update-kubeconfig --name virtualtechbox-cluster
 
-     - name: Delete previous pods
-       run: kubectl delete --all pods
-
      - name: Deploy to Kubernetes
        run: kubectl apply -f deployment-and-service.yml
        
