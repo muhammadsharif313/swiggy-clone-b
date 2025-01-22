@@ -1,4 +1,4 @@
-Deploying the Swiggy clone app with Terraform, Kubernetes, and GitHub Action.
+Deploying the Swiggy Clone App with Terraform, Kubernetes and GitHub Actions.
 
 
 
